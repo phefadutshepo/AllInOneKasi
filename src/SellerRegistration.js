@@ -51,11 +51,6 @@ const SellerRegistration = ({ switchToUserRegistration, switchToLogin }) => {
         Want to register as a user?{' '}
         <button onClick={switchToUserRegistration}>Switch to User Registration</button>
       </p>
-      <p>
-        Already registered? 
-        <button onClick={switchToLogin}>Back to Login</button>
-      </p>
-
     </div>
   );
 };
