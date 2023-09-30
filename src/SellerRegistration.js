@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 
-const SellerRegistration = ({ switchToUserRegistration }) => {
+const SellerRegistration = ({ switchToUserRegistration, switchToLogin }) => {
   const [sellerData, setSellerData] = useState({
     companyName: '',
     taxId: '',
@@ -51,6 +51,11 @@ const SellerRegistration = ({ switchToUserRegistration }) => {
         Want to register as a user?{' '}
         <button onClick={switchToUserRegistration}>Switch to User Registration</button>
       </p>
+      <p>
+        Already registered? 
+        <button onClick={switchToLogin}>Back to Login</button>
+      </p>
+
     </div>
   );
 };
