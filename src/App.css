@@ -44,7 +44,7 @@ button[type="submit"] {
   background-color: #2196F3; /* Blue button background color */
   color: #fff; /* Button text color */
   padding: 10px;
-  border: none;
+  /* border: none; */
   border-radius: 4px;
   cursor: pointer;
 }
@@ -54,8 +54,8 @@ button[type="submit"]:hover {
 }
 
 button {
-  background: none;
-  border: none;
+  /* background: none;
+  border: none; */
   color: #2196F3;
   cursor: pointer;
 }

@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
 import Login from './login';
+import GoogleSignIn from './googlesignin'
 import UserRegistration from './UserRegistration';
 import SellerRegistration from './SellerRegistration';
 
 function App() {
   return (
-    <Login/>
+    <>
+      <Login/>
+    </>
   );
 }
 
