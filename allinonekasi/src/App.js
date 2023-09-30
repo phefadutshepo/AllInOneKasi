@@ -20,7 +20,7 @@ function App() {
       ) : (
         <SellerRegistration switchToUserRegistration={switchToUserRegistration} />
       )}
-    </div>
+y    </div>
   );
 }
 
